@@ -1,0 +1,17 @@
+{
+  "channel": [
+    {
+      "name": "DEV.APP.SVRCONN",
+      "clientConnection": {
+        "connection": [
+          {
+            "host": "${env.MQ_CONSOLE_DEFAULT_CCDT_HOSTNAME}",
+            "port": "${env.MQ_CONSOLE_DEFAULT_CCDT_HOSTNAME}"
+          }
+        ],
+        "queueManager": "QM1"
+      },
+      "type": "clientConnection"
+    }
+  ]
+}
