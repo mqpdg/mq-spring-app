@@ -6,7 +6,7 @@
         "connection": [
           {
             "host": "${env.MQ_CONSOLE_DEFAULT_CCDT_HOSTNAME}",
-            "port": "${env.MQ_CONSOLE_DEFAULT_CCDT_HOSTNAME}"
+            "port": "${env.MQ_CONSOLE_DEFAULT_CCDT_PORT}"
           }
         ],
         "queueManager": "QM1"
