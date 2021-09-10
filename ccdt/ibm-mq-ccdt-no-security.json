@@ -4,9 +4,9 @@
       "name": "DEV.APP.SVRCONN",
       "clientConnection": {
         "connection": [
-{
-            "host": "${env.MQ_CONSOLE_DEFAULT_CCDT_HOSTNAME}",
-            "port": "${env.MQ_CONSOLE_DEFAULT_CCDT_PORT}"
+		  {
+            "host": "localhost",
+            "port": "1414"
           }
         ],
         "queueManager": "QM1"
