@@ -1,24 +1,13 @@
 {
-    "channel":
-    [
-        {
-            "name": "DEV.APP.SVRCONN",
-            "connectionManagement":
-            {
-              "heartbeatInterval": 30
-            },
-            "clientConnection":
-            {
-                "connection":
-                [
-                    {
-                        "host": "localhost",
-                        "port": 1414
-                    }
-                ],
-                "queueManager": "QM1"
-            },
-            "type": "clientConnection"
-        }
-   ]
+  "channel": [{
+      "name": "DEV.APP.SVRCONN",
+      "clientConnection": {
+        "connection": [{
+          "host": "127.0.0.1",
+          "port": 1414
+         }],
+        "queueManager": "QM1"
+      },
+      "type": "clientConnection"
+    }]
 }
