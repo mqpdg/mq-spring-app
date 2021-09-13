@@ -5,8 +5,8 @@
       "clientConnection": {
         "connection": [
           {
-            "host": "${env.MQ_CONSOLE_DEFAULT_CCDT_HOSTNAME}",
-            "port": 0
+            "host": "localhost",
+            "port": 1414
           }
         ],
         "queueManager": "QM1"
